@@ -1,0 +1,4 @@
+alt - a : yabai -m space --focus 1;
+alt - s : yabai -m space --focus 2;
+alt - d : yabai -m space --focus 3;
+alt - f : yabai -m space --focus 4;

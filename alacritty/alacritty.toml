@@ -1,0 +1,32 @@
+import = [
+    "~/.config/alacritty/coolnight.toml"
+]	
+
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "Buttonless"
+dynamic_padding = false
+opacity = 0.8
+blur = true
+[window.padding]
+x = 20
+y = 20
+
+[font]
+size = 13.0
+offset.y = 6
+
+[font.normal]
+family = "MesloLGS Nerd Font"
+# style = "Regular"
+
+# family = "FiraCode Nerd Font"
+# style = "Light"
+
+# TokyoNight Alacritty Colors
+# Default colors
+
