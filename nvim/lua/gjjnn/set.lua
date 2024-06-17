@@ -14,3 +14,4 @@ vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.keymap.set('i', 'jk', '<Esc>')
+vim.opt.fillchars = { eob = " " }
