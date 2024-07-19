@@ -6,8 +6,9 @@
 [colors.primary]
 #background = '#1a1b26'
 foreground = '#a9b1d6'
-background = '#111628'
-
+#background = '#111628'
+# background = '#284044'
+background = '#26363c'
 # Normal colors
 [colors.normal]
 black   = '#32344a'

@@ -18,11 +18,28 @@ return require("lazy").setup({
         'nvim-telescope/telescope.nvim', tag = '0.1.6',
         dependencies = { 'nvim-lua/plenary.nvim' }
     },
+-- { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
     --{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+   {
+       'xiyaowong/transparent.nvim'
+   },
     {
-
-
-        'xiyaowong/transparent.nvim'
+        'JoosepAlviste/palenightfall.nvim'
+    },
+    {
+    "gbprod/nord.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("nord").setup({})
+      vim.cmd.colorscheme("nord")
+    end,
+  },
+    {
+        'jose-elias-alvarez/null-ls.nvim'
+    },
+    {
+        'MunifTanjim/prettier.nvim'
     },
     {
         "folke/tokyonight.nvim",
